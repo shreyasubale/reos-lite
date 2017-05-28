@@ -1,0 +1,25 @@
+{
+  "name": "reos-lite",
+  "version": "1.0.1",
+  "description": "Module to control Reos lite ble led bulb",
+  "main": "reos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "reos",
+    "lite",
+    "smartbulb",
+    "led",
+    "reos-lite"
+  ],
+  "author": "Shreyas Ubale <shreyasubale@gmail.com> (http://www.devmire.com)",
+  "license": "ISC",
+  "dependencies": {
+    "noble": "^1.7.0",
+    "noble-device": "^1.4.1",
+
+    "underscore": "^1.8.3",
+    "util": "^0.10.3"
+  }
+}
